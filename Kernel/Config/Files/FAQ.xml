@@ -770,6 +770,17 @@ Your OTRS Notification Master
                     <AccessKey>A</AccessKey>
                     <Prio>920</Prio>
                 </NavBar>
+                <NavBar>
+                    <Group>faq</Group>
+                    <Description Translatable="1">New FAQ</Description>
+                    <Name Translatable="1">New FAQ</Name>
+                    <Link>Action=AgentFAQAdd</Link>
+                    <Type>Menu</Type>
+                    <Block></Block>
+                    <NavBar>New FAQ</NavBar>
+                    <AccessKey>A</AccessKey>
+                    <Prio>20000</Prio>
+                </NavBar>
                 <Loader>
                     <CSS>FAQ.Agent.Detail.css</CSS>
                 </Loader>

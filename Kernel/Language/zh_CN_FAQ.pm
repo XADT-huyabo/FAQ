@@ -449,6 +449,7 @@ sub Data {
         '在公共界面中，为优化FAQ搜索用于生成HTML开放搜索（OpenSearch）配置的模块。';
     $Self->{Translation}->{'Module to generate html OpenSearch profile for short FAQ search.'} =
         '在服务人员界面中，用于简短的FAQ搜索而生成HTML开放式搜索配置文件的模块。';
+    $Self->{Translation}->{'New FAQ'} = '创建知识';
     $Self->{Translation}->{'New FAQ Article'} = '创建FAQ文章';
     $Self->{Translation}->{'New FAQ articles need approval before they get published.'} = '新建的FAQ文章在发布之前需要审批。';
     $Self->{Translation}->{'Number of FAQ articles to be displayed in the FAQ Explorer of the customer interface.'} =
